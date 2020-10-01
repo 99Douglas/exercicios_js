@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+    function calculaImposto(valorPizza) {
+        return valorPizza / 8.9;
+    }
+    function calculaLucro(custoPizza, valorBrutoPizza) {
+        return valorBrutoPizza - custoPizza;
+    }
+
+    var custoPizza = ;
+    var valorPizza = ;
+    var nomePizza = ;
+
+    var valorBrutoPizza = calculaImposto(valorPizza);
+
+    var lucroLiquido = calculaLucro(custoPizza, valorBrutoPizza);
+
+    document.write("Para a pizza " + nomePizza + " o lucro líquido é de R$" + lucroLiquido + " e o imposto é de " + valorBrutoPizza);
+
+</script>

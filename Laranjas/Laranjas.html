@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+
+<script>
+    function divisaoLaranja(quantidadeLaranjas, quantidadeVizinhos) {
+        return Math.round(quantidadeLaranjas / quantidadeVizinhos)
+    }
+
+    var quantidadeLaranjas = prompt("Informe quantas laranjas você tem")
+    var quantidadeVizinhos = prompt("Informe quantos vizinhos você tem")
+
+    var divisaoTotal = divisaoLaranja(quantidadeLaranjas, quantidadeVizinhos);
+
+    document.write("A quantidade de laranjas que seus vizinhos receberão é de " + divisaoTotal + "<br>");
+</script>
