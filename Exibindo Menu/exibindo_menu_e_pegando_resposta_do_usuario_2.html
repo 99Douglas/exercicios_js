@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+    function mostraMenu() {
+        document.write("1 - Refrigerante <br>")
+        document.write("2 - Suco <br>")
+        document.write("3 - Água <br>")
+    }
+
+    mostraMenu();
+
+    var pedido = parseInt(prompt("O que você deseja?"));
+
+    if(pedido == 1) {
+        document.write("Você escolheu o refrigerante!")
+    } else if(pedido == 2) {
+        document.write("Você escolheu o suco!")
+    } else if(pedido == 3) {
+        document.write("Você escolheu a água!")
+    }
+
+</script>

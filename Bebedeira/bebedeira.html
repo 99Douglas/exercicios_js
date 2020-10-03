@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+        function podeBeber(idadeUsuario, idadePermitida) {
+        if(idadeUsuario >= idadePermitida) {
+            return "Você pode beber! <br>";
+        } else {
+            return "Você não pode beber! <br>";
+        }
+    }
+
+    var idadeUsuario = 15;
+    var idadePermitida = 18;
+
+    document.write(podeBeber(idadeUsuario, idadePermitida));
+
+    idadeUsuario = 21;
+
+    document.write(podeBeber(idadeUsuario, idadePermitida));
+
+    idadeUsuario = 14;
+
+    document.write(podeBeber(idadeUsuario, idadePermitida));
+
+</script>

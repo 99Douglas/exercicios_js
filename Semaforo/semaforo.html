@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+<script>
+    function acendeSemaforo(cor) {
+        if(cor == "verde") {
+            return "Pode passar! <br>";
+        } else if(cor == "amarelo") {
+            return "Melhor freiar! <br>";
+        } else if(cor == "vermelho") {
+            return "Pare já!";
+        }
+    }
+
+    var cor = "verde";
+
+    document.write(acendeSemaforo(cor));
+
+    cor = "amarelo";
+
+    document.write(acendeSemaforo(cor));
+
+    cor = "vermelho";
+
+    document.write(acendeSemaforo(cor));
+
+</script>
